@@ -1,0 +1,23 @@
+# Fichiers compilés
+*.class
+# Fichiers d'archives
+*.jar
+*.war
+*.ear
+
+# Dosiers de Build
+build/ 
+target/
+bin/
+out/
+ 
+#Fichiers IDE
+.idea/
+*.iml
+.vscode/
+.sttings/
+.classpath/
+.project/
+
+#Logs
+*.log
