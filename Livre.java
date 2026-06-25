@@ -28,6 +28,15 @@ public class Livre {
     public void setDisponible(boolean disponible) {
         this.disponible = disponible;
     }
+    // Méthode pour emprunter un livre
+    public void emprunter() {
+        if (disponible) {
+            disponible = false;
+        System.out.println("Le livre a été emprunté avec succès.");
+        } else {
+            System.out.println("Le livre n'est pas disponible pour l'emprunt.");
+        }
+    }
     //Annotation
     @Override
     public String toString() {
