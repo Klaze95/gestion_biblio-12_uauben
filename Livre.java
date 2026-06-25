@@ -4,7 +4,7 @@ public class Livre {
     private String auteur;
     private String isbn;
     private boolean disponible;
-
+// Rendre public mes attributs
     public Livre(String titre, String auteur, String isbn) {
         this.titre = titre;
         this.auteur = auteur;
